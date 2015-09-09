@@ -1,0 +1,165 @@
+body {
+	font-family: "Calibri", "Helvetica neue", serif;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.highlight {
+	color: #e74c3c;
+}
+
+
+.navbar {
+	background-color: transparent;
+	border: none;
+	margin-bottom: 0;
+	padding-top: 10px;
+}
+
+.navbar-brand img {
+	width: 90%;
+	max-width: 353px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fefefe;
+	opacity: .7;
+	text-transform: uppercase;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.jumbotron {
+	background: url('../img/background.jpg') no-repeat center center;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	border-top: 3px solid #e74c3c;
+	padding: 170px 0;
+	margin-top: -65px;
+	margin-bottom: 0;
+}
+
+.jumbotron h1 {
+	padding: 10px;
+	text-align: center;
+	margin: 10px 20px;
+	font-weight: 600;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #fff;
+	background: rgba(0,0,0,.1);
+	text-shadow: 1px 1px 2px #333;
+}
+
+#bottom-section .col-sm-4 {
+	min-height: 300px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 20%;
+}
+
+#bottom-section a:hover {
+	text-decoration: none;
+}
+
+#bottom-section .col-sm-4:hover {
+	opacity: 0.9;
+}
+
+#bottom-section .col-sm-4 p {
+	color: #fff;
+	font-size: 18px;
+	font-weight: lighter;
+	margin-bottom: 10px;
+}
+
+#bottom-section .col-sm-4 .btn-success {
+	background-color: #27ae60;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+#byfw {
+	background-image: url(../img/byfw.jpg);
+	background-color: #e74c3c;
+}
+
+#baw {
+	background-image: url(../img/baw.png);
+	background-color: #f39c12;
+}
+
+#oml {
+	background-image: url(../img/oml.jpg);
+	background-color: #f1c40f;
+}
+
+footer {
+	padding-top: 15px;
+	background-color: #333;
+	color: #fff;
+}
+
+footer a {
+	color: #7f8c8d;
+}
+
+footer a:hover {
+	color: #ccc;
+}
+
+#right-align {
+	text-align: right;
+	padding-top: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+	#bottom-section .col-sm-4 {
+		min-height: 425px;
+		padding-top: 55%;
+		padding-bottom: 5px;
+	}
+
+	.jumbotron h1 {
+		font-size: 25px;
+	}
+
+	.navbar-brand {
+		width: 50%;
+	}
+
+	.navbar-brand img {
+		width: 220px;
+	}
+
+	.navbar-inverse .navbar-toggle {
+		background-color: #333;
+	}
+
+	.navbar-inverse .navbar-nav {
+		background-color: #333;
+	}
+
+	.jumbotron {
+		margin-top: -186px;
+		padding-top: 210px;
+		padding-bottom: 90px;
+	}
+
+	footer .col-sm-6 {
+		text-align: center;
+	}
+
+	#right-align {
+	padding-bottom: 15px;
+	text-align: center;
+	}
+}
